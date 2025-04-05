@@ -36,7 +36,7 @@ WORKING....
    cd bliss
 3. Abra o index.html no navegador.
 
-✨ Melhorias Futuras
+## ✨ Melhorias Futuras
 Integração com back-end
 
 Sistema de pagamento
