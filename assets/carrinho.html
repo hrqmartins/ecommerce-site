@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="../styles/carrinho.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Carrinho</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../cadastro.html">Cadastrar</a>
+            <a href="../login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="carrinho">
+            <h2>Itens no Carrinho</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Total</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Exemplo de item no carrinho -->
+                    <tr>
+                        <td>Produto Exemplo</td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>R$ 50,00</td>
+                        <td>R$ 50,00</td>
+                        <td>
+                            <button>Remover</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="resumo">
+                <h3>Resumo do Pedido</h3>
+                <p>Total: <span id="total">R$ 50,00</span></p>
+                <button id="finalizar-compra">Finalizar Compra</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 - Meu Site de Vendas</p>
+    </footer>
+</body>
+</html>
